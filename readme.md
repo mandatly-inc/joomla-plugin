@@ -78,11 +78,4 @@ To implement Mandatly Cookie Compliance and Consent solution plugin, follow the 
 4. Activate ‘Mandatly | Cookie Compliance and Consent solution’ from your Plugins page. 
 
 
-# Changelog 
-
-**Version 1.1.1**
-
-* First public release
-
-
 
