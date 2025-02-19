@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="plugin" version="4.0" method="upgrade" group="system">
+    <name>Mandatly | Cookie Compliance and Consent Solution</name>
+    <author>Mandatly</author>
+    <authorEmail>admin@mandatly.com</authorEmail>
+    <authorUrl>https://mandatly.com</authorUrl>
+    <version>1.1.1</version>
+    <description><![CDATA[
+    
+       The easy-to-use cookie compliance and consent solution allows you to manage cookie consents and assists in becoming compliant with GDPR, CCPA/CPRA, LGPD, e-privacy directive and other regulations.
+    ]]></description>
+
+    <files>
+        <filename plugin="mandatly_cookie_compliance">mandatly_cookie_compliance.php</filename>
+        <folder>assets</folder>
+    </files>
+
+ <enabled>true</enabled> 
+
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.plg_system_mandatly_cookie_compliance.ini</language>
+        <language tag="en-GB">en-GB/en-GB.plg_system_mandatly_cookie_compliance.sys.ini</language>
+   </languages>
+    <config>       
+
+        <fields name="params">
+            <fieldset name="basic" label="Plugin">
+                <field 
+                    name="show_banner" 
+                    type="radio" 
+                    default="1" 
+                    id="show_banner" 
+                    class="banner btn-group btn-group-yesno" 
+                    layout="joomla.form.field.radio.switcher" 
+                    filter="integer" label="Show Banner" 
+                    description="Enable or disable the cookie banner.">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>         
+
+                <field 
+                    name="demo_mode" 
+                    type="radio" 
+                    default="1" 
+                    id="demo_mode" 
+                    class="btn-group btn-group-yesno" 
+                    layout="joomla.form.field.radio.switcher" 
+                    filter="integer" label="Demo Mode" 
+                    description="Enable or disable demo mode for testing."
+                    showon="show_banner:1">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>            
+        
+                <field 
+                    name="demo_text" 
+                    type="note" 
+
+                    class="info dummy" 
+                    description="Demo mode is currently active and displays a dummy banner on your website. To implement actual banner, you can turn off demo mode." 
+                    id="jform_params_demo_text" 
+                    showon="show_banner:1[AND]demo_mode:1">
+                </field>      
+
+                <field 
+                    name="website_guid" 
+                    type="text" 
+                    label="Website GUID" 
+                    description="Enter the GUID for your website to integrate the banner." 
+                    hint="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"  
+                    id="jform_params_website_guid" 
+                    showon="show_banner:1[AND]demo_mode:0">
+                </field>     
+
+                <field 
+                    name="preview_banner" 
+                    type="note" 
+                    class="preview" 
+                    description="&lt;a href='../' target='_blank'&gt;Preview banner&lt;/a&gt;" 
+                    id="jform_params_preview_banner"
+                    showon="show_banner:1[AND]demo_mode:0"> 
+                </field>     
+
+                <field 
+                    name="get_guid_help" 
+                    type="note" 
+                    class="guid"
+                    description="&lt;a href='https://help.mandatly.net/HowtogetWebsiteGUID' target='_blank'&gt;How to get website GUID?&lt;/a&gt;" 
+                    id="jform_params_get_guid_help" 
+                    showon="show_banner:1[AND]demo_mode:0">
+                </field>     
+          
+                <field 
+                    name="signup_info" 
+                    type="note" 
+                    class="dummy"
+                    description="You need a Mandatly account to implement the cookie banner using this plugin. Don't have an account? 
+                    &lt;a href='https://mandatly.com/pricing/by-solutions#Cookie-Compliance' target='_blank'&gt;Free Sign up now&lt;/a&gt;">
+                </field>     
+            </fieldset>
+        </fields>
+    </config>  
+</extension>
+
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+                
+
+
