@@ -1,0 +1,67 @@
+label {
+    margin-bottom: 36px;
+}
+
+.control-group .control-label {
+    width: 240px;
+    padding: 0.3rem 1rem 0.3rem 68px;
+}
+
+.form-control {
+    color: var(--body-color);
+    appearance: none;
+    background-color: var(--body-bg);
+    border: var(--border-width)solid var(--template-bg-dark-20);
+    border-radius: var(--border-radius);
+    background-clip: padding-box;
+    width: 100%;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    display: block;
+    margin-top: -3px;
+    margin-left: -2px;
+}
+
+.control-group .controls {
+    flex: .55;
+    max-width: 100%;
+    position: relative
+}
+
+
+.banner{
+    margin: -7.5rem 538px 12rem;  
+    background: none;
+}
+.preview{
+    margin: -7.5rem 538px 6rem;  
+    background: none;
+    color: rgba(var(--link-color-rgb), var(--link-opacity, 1));
+    text-decoration: none;
+    white-space: nowrap;
+    display: inline-block;
+    width: auto;
+    padding: 0px 2px;
+    height: auto;
+    line-height: 1;
+}
+.guid{
+    margin: -3.5rem 238px 2rem;  
+    background: none;
+}
+.info .dummy {
+    background: none;
+    border: 2px solid #ddd;
+    margin: -5.5rem 236px 13px;
+    padding: 11px;
+
+}
+.dummy{
+    margin: -1.5rem 239px 2rem;
+    border: 2px solid #ddd;
+    padding: 11px;
+    background: none;
+}
