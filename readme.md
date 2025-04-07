@@ -1,10 +1,10 @@
-# Mandatly | Cookie Compliance and Consent solution 
+=== Mandatly | Cookie Compliance and Consent solution ===
 Tags: GDPR, CCPA, LGPD, PIPEDA, DSGVO, cookie, cookie banner, cookie notice, cookie policy, cookie law, cookie consent, cookie compliance
 Tested up to: 5.2.3
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-# Description 
+== Description ==
 The easy-to-use cookie compliance and consent solution allows you to manage cookie consents and assists in becoming compliant with GDPR, LGPD, CCPA/CPRA, e-privacy directive and other regulations.
 
 **Key features of Mandatly Cookie Compliance and Consent solution:**
@@ -65,17 +65,24 @@ To implement Mandatly Cookie Compliance and Consent solution plugin, follow the 
 3. Help [Documents to](https://www.mandatly.com/documentation) guide you through Mandatly Cookie Compliance and Consent solution
 
 
-# Installation 
+== Installation ==
 
 **From your Joomla dashboard**
 
-1. Visit ‘Extensions’ then click on ‘Install Extensions’ 
+* Visit ‘Extensions’ then click on ‘Install Extensions’ 
 
-2. Select for ‘Install from Web’ 
+* Select for ‘Install from Web’ 
 
-3. Search for ‘Mandatly’ 
+* Search for ‘Mandatly’ 
     
-4. Activate ‘Mandatly | Cookie Compliance and Consent solution’ from your Plugins page. 
+* Activate Mandatly | Cookie Compliance and Consent solution from your Plugins page. 
+
+
+== Changelog ==
+
+**Version 1.1.1**
+
+* First public release
 
 
 
