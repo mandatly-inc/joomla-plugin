@@ -101,6 +101,9 @@
             </fieldset>
         </fields>
     </config>  
+    <updateservers>
+<server type="extension" name="Mandatly | Cookie Compliance and Consent Solution">https://github.com/mandatly-inc/joomla-plugin/update.xml</server>
+</updateservers>
 </extension>
 
  
