@@ -1,4 +1,4 @@
-=== Mandatly | Cookie Compliance and Consent solution ===
+# Mandatly | Cookie Compliance and Consent solution
 Tags: GDPR, CCPA, LGPD, PIPEDA, DSGVO, cookie, cookie banner, cookie notice, cookie policy, cookie law, cookie consent, cookie compliance
 Tested up to: 5.2.3
 License: GPLv3
