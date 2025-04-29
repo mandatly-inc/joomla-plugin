@@ -10,13 +10,7 @@ use Joomla\CMS\Factory;
 use Joomla\CMS\Uri\Uri;
 use Joomla\CMS\HTML\HTMLHelper;
 use Joomla\CMS\Http\HttpFactory;
-require_once __DIR__ . '/helper.php';
 
-// Trigger the plugin installation
-ModPluginInstallerHelper::installPlugin();
-
-// Load the module layout
-require JModuleHelper::getLayoutPath('mandatly');
 class plgSystemmandatly extends CMSPlugin
 {
     protected $autoloadLanguage = true;
