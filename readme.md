@@ -69,13 +69,11 @@ To implement Mandatly Cookie Compliance and Consent solution plugin, follow the 
 
 **From your Joomla dashboard**
 
-* Visit ‘Extensions’ then click on ‘Install Extensions’ 
+* On your joomla dashboard, click on ‘System’ and then ‘Extension’ which is under Install section.
 
-* Select for ‘Install from Web’ 
+* Select for ‘Install from URL’ 'https://raw.githubusercontent.com/mandatly-inc/joomla-plugin/refs/heads/main/plg_system_mandatly-v1.1.1.zip' paste URL and then click on 'Check & Install'
 
-* Search for ‘Mandatly’ 
-    
-* Activate Mandatly | Cookie Compliance and Consent solution from your Plugins page. 
+* Activate ‘Mandatly | Cookie Compliance and Consent solution’ from your Plugins page.
 
 
 # Changelog 
