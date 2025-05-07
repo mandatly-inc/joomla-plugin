@@ -16,6 +16,6 @@
     <tags>stable</tags>
     <maintainer>mandatly-inc</maintainer>
     <maintainerurl>https://github.com/mandatly-inc/joomla-plugin</maintainerurl>
-    <targetplatform name="joomla" version="4.0|*" />
+    <targetplatform name="joomla" version="4.0" />
   </update>
 </updates>
